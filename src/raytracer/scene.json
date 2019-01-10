@@ -1,0 +1,67 @@
+[
+	{
+		"type": "scene", 
+		"width": 800,
+		"height": 800, 
+		"max_ray_depth": 25,
+		"field_of_view": 50,
+		"background_color": {"r":510, "g":510, "b":510}
+	}, 
+	{
+		"type": "light", 
+		"center": { "x":0, "y":30, "z":-30},
+    	"radius": 3,
+    	"emission_color": {"r":765, "g":765, "b":765}
+	}, 
+	{
+		"type": "light", 
+		"center": { "x":-10, "y":30, "z":-30},
+    	"radius": 3,
+    	"emission_color": {"r":765, "g":765, "b":765}
+	},
+	{
+		"type": "sphere", 
+		"center": {"x":0, "y":-207, "z":-25},
+		"radius": 200,
+    	"color": {"r":255, "g":153, "b":255},
+    	"reflectivity": 1,
+		"transparency": 0,
+    	"index_of_refraction": 1
+	},
+	{
+		"type": "sphere", 
+		"center": {"x":0, "y":0, "z":-20}, 
+    	"radius": 4, 
+    	"color": {"r":255, "g":81, "b":92}, 
+    	"transparency": 0.5,
+    	"reflectivity": 0.9, 
+    	"index_of_refraction": 1.1
+	},
+	{
+		"type": "sphere", 
+		"center": {"x":5, "y":-1, "z":-15}, 
+    	"radius": 2, 
+    	"color": {"r":230, "g":194, "b":117}, 
+    	"transparency": 0,
+    	"reflectivity": 1, 
+    	"index_of_refraction": 1.1
+	},
+	{
+		"type": "sphere", 
+		"center": {"x":5, "y":0, "z":-25}, 
+    	"radius": 3, 
+    	"color": {"r":166, "g":196, "b":247}, 
+    	"transparency": 0,
+    	"reflectivity": 0.8, 
+    	"index_of_refraction": 1.1
+	},
+	{
+		"type": "sphere", 
+		"center": {"x":-5.5, "y":0, "z":-15}, 
+    	"radius": 3, 
+    	"color": {"r":230, "g":230, "b":230}, 
+    	"transparency": 0,
+    	"reflectivity": 0.5, 
+    	"index_of_refraction": 1.1
+	}
+]
