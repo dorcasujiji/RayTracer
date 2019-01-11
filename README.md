@@ -1,7 +1,5 @@
 # Raytracer 
-# description: A ray tracer program that displays a scene based on description of input file in JSON format.
-# author: Dorcas Ujiji
-# date:   12/17/2018
+A ray tracer program that displays a scene based on description of input file in JSON format.
 
 Before running: 
 1. Add json.simple jar file to build path 
@@ -35,26 +33,26 @@ Example: Acceptable file with light, sphere and plane
 	{
 		"type": "light", 
 		"center": { "x":0, "y":4, "z":-13},
-    	"radius": 2,
-    	"emission_color": {"r":765, "g":765, "b":765}
+    		"radius": 2,
+    		"emission_color": {"r":765, "g":765, "b":765}
 	}, 
 	{
 		"type": "sphere", 
 		"center": {"x":0, "y":0, "z":-10}, 
-    	"radius": 1, 
-    	"color": {"r":0, "g":255, "b":0}, 
-    	"transparency": 0.5,
-    	"reflectivity": 0.9, 
-    	"index_of_refraction": 1.1
+    		"radius": 1, 
+    		"color": {"r":0, "g":255, "b":0}, 
+    		"transparency": 0.5,
+    		"reflectivity": 0.9, 
+    		"index_of_refraction": 1.1
 	}, 
 	{
 		"type": "plane", 
 		"center": {"x":0, "y":-1, "z":-10}, 
-    	"normal": {"x":0, "y":1, "z":0.1}, 
-    	"width": 3, 
-    	"height": 4,
-    	"color": {"r":127, "g":0, "b":0}, 
-    	"reflectivity": 0.9
+    		"normal": {"x":0, "y":1, "z":0.1}, 
+    		"width": 3, 
+    		"height": 4,
+    		"color": {"r":127, "g":0, "b":0}, 
+    		"reflectivity": 0.9
 	}
 ]
 
