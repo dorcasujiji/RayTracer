@@ -20,41 +20,41 @@ The input file should be a JSON file with a list of scene objects and their desc
 // Note: planes do not display shadows for now but are fine otherwise
 4. "plane" objects require: center, normal (to the plane), width, height, color, normal, reflectivity (0>=r>=1).
 
-Example: Acceptable file with light, sphere and plane
-[
-&nbsp;{
-&nbsp;&nbsp;"type": "scene", 
-&nbsp;&nbsp;"width": 1000,
-&nbsp;&nbsp;"height": 800, 
-&nbsp;&nbsp;"max_ray_depth": 20,
-&nbsp;&nbsp;"field_of_view": 75,
-&nbsp;&nbsp;"background_color": {"r":255, "g":255, "b":255}
-&nbsp;}, 
-&nbsp;{
-&nbsp;&nbsp;"type": "light", 
-&nbsp;&nbsp;"center": { "x":0, "y":4, "z":-13},
-&nbsp;&nbsp;"radius": 2,
-&nbsp;&nbsp;"emission_color": {"r":765, "g":765, "b":765}
-&nbsp;}, 
-&nbsp;{
-&nbsp;&nbsp;"type": "sphere", 
-&nbsp;&nbsp;"center": {"x":0, "y":0, "z":-10}, 
-&nbsp;&nbsp;"radius": 1, 
-&nbsp;&nbsp;"color": {"r":0, "g":255, "b":0}, 
-&nbsp;&nbsp;"transparency": 0.5,
-&nbsp;&nbsp;"reflectivity": 0.9, 
-&nbsp;&nbsp;"index_of_refraction": 1.1
-&nbsp;}, 
-&nbsp;{
-&nbsp;&nbsp;"type": "plane", 
-&nbsp;&nbsp;"center": {"x":0, "y":-1, "z":-10}, 
-&nbsp;&nbsp;"normal": {"x":0, "y":1, "z":0.1}, 
-&nbsp;&nbsp;"width": 3, 
-&nbsp;&nbsp;"height": 4,
-&nbsp;&nbsp;"color": {"r":127, "g":0, "b":0}, 
-&nbsp;&nbsp;"reflectivity": 0.9
-&nbsp;}
-]
+Example: Acceptable file with light, sphere and plane.<br/>
+[ <br/>
+&nbsp;{ <br/>
+&nbsp;&nbsp;"type": "scene", <br/>
+&nbsp;&nbsp;"width": 1000, <br/>
+&nbsp;&nbsp;"height": 800, <br/>
+&nbsp;&nbsp;"max_ray_depth": 20, <br/>
+&nbsp;&nbsp;"field_of_view": 75, <br/>
+&nbsp;&nbsp;"background_color": {"r":255, "g":255, "b":255} <br/>
+&nbsp;}, <br/>
+&nbsp;{ <br/>
+&nbsp;&nbsp;"type": "light", <br/>
+&nbsp;&nbsp;"center": { "x":0, "y":4, "z":-13}, <br/>
+&nbsp;&nbsp;"radius": 2, <br/>
+&nbsp;&nbsp;"emission_color": {"r":765, "g":765, "b":765} <br/>
+&nbsp;}, <br/>
+&nbsp;{ <br/>
+&nbsp;&nbsp;"type": "sphere", <br/>
+&nbsp;&nbsp;"center": {"x":0, "y":0, "z":-10}, <br/>
+&nbsp;&nbsp;"radius": 1, <br/>
+&nbsp;&nbsp;"color": {"r":0, "g":255, "b":0}, <br/>
+&nbsp;&nbsp;"transparency": 0.5, <br/>
+&nbsp;&nbsp;"reflectivity": 0.9, <br/>
+&nbsp;&nbsp;"index_of_refraction": 1.1 <br/>
+&nbsp;}, <br/>
+&nbsp;{ <br/>
+&nbsp;&nbsp;"type": "plane", <br/>
+&nbsp;&nbsp;"center": {"x":0, "y":-1, "z":-10}, <br/>
+&nbsp;&nbsp;"normal": {"x":0, "y":1, "z":0.1}, <br/>
+&nbsp;&nbsp;"width": 3, <br/>
+&nbsp;&nbsp;"height": 4, <br/>
+&nbsp;&nbsp;"color": {"r":127, "g":0, "b":0}, <br/>
+&nbsp;&nbsp;"reflectivity": 0.9 <br/>
+&nbsp;} <br/>
+] <br/>
 
 
 ### References: 
