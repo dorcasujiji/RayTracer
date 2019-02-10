@@ -22,38 +22,38 @@ The input file should be a JSON file with a list of scene objects and their desc
 
 Example: Acceptable file with light, sphere and plane
 [
-	{
-		"type": "scene", 
-		"width": 1000,
-		"height": 800, 
-		"max_ray_depth": 20,
-		"field_of_view": 75,
-		"background_color": {"r":255, "g":255, "b":255}
-	}, 
-	{
-		"type": "light", 
-		"center": { "x":0, "y":4, "z":-13},
-    		"radius": 2,
-    		"emission_color": {"r":765, "g":765, "b":765}
-	}, 
-	{
-		"type": "sphere", 
-		"center": {"x":0, "y":0, "z":-10}, 
-    		"radius": 1, 
-    		"color": {"r":0, "g":255, "b":0}, 
-    		"transparency": 0.5,
-    		"reflectivity": 0.9, 
-    		"index_of_refraction": 1.1
-	}, 
-	{
-		"type": "plane", 
-		"center": {"x":0, "y":-1, "z":-10}, 
-    		"normal": {"x":0, "y":1, "z":0.1}, 
-    		"width": 3, 
-    		"height": 4,
-    		"color": {"r":127, "g":0, "b":0}, 
-    		"reflectivity": 0.9
-	}
+&nbsp;{
+&nbsp;&nbsp;"type": "scene", 
+&nbsp;&nbsp;"width": 1000,
+&nbsp;&nbsp;"height": 800, 
+&nbsp;&nbsp;"max_ray_depth": 20,
+&nbsp;&nbsp;"field_of_view": 75,
+&nbsp;&nbsp;"background_color": {"r":255, "g":255, "b":255}
+&nbsp;}, 
+&nbsp;{
+&nbsp;&nbsp;"type": "light", 
+&nbsp;&nbsp;"center": { "x":0, "y":4, "z":-13},
+&nbsp;&nbsp;"radius": 2,
+&nbsp;&nbsp;"emission_color": {"r":765, "g":765, "b":765}
+&nbsp;}, 
+&nbsp;{
+&nbsp;&nbsp;"type": "sphere", 
+&nbsp;&nbsp;"center": {"x":0, "y":0, "z":-10}, 
+&nbsp;&nbsp;"radius": 1, 
+&nbsp;&nbsp;"color": {"r":0, "g":255, "b":0}, 
+&nbsp;&nbsp;"transparency": 0.5,
+&nbsp;&nbsp;"reflectivity": 0.9, 
+&nbsp;&nbsp;"index_of_refraction": 1.1
+&nbsp;}, 
+&nbsp;{
+&nbsp;&nbsp;"type": "plane", 
+&nbsp;&nbsp;"center": {"x":0, "y":-1, "z":-10}, 
+&nbsp;&nbsp;"normal": {"x":0, "y":1, "z":0.1}, 
+&nbsp;&nbsp;"width": 3, 
+&nbsp;&nbsp;"height": 4,
+&nbsp;&nbsp;"color": {"r":127, "g":0, "b":0}, 
+&nbsp;&nbsp;"reflectivity": 0.9
+&nbsp;}
 ]
 
 
