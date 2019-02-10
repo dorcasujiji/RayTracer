@@ -1,16 +1,16 @@
 # Raytracer 
 A ray tracer program that displays a scene based on description of input file in JSON format.
 
-Before running: 
+## Before running: 
 1. Add json.simple jar file to build path 
 
-Input Format: 
+## Input Format: 
 The raytracer program accepts filepath as command line arguments or as user input after running the program. 
 
 The input file should be a JSON file with a list of scene objects and their descriptions. The file should have a single list of objects in square braces, separated by commas. The objects' parameters should be string (for object type), numbers (for dimension, color rgb-values or vector xyz-component) or objects themselves (vectors and colors). 
 
 
-How to create image with following "type": 
+### How to create image with following "type": 
 1. "scene" requires parameters: width, height (of window & viewport), max_ray_depth, field_of_view and background_color.
 
 2. "light" objects are spherical with light rays and need parameters: center, radius and emmission_color (color of light rays). 
@@ -57,7 +57,7 @@ Example: Acceptable file with light, sphere and plane
 ]
 
 
-References: 
+### References: 
 1. Blog at The Bottom of the Sea. Raytracing Reflection, Refraction, Fresnel, Total Internal Reflection, and Beer’s Law. Accessed on Dec 10th 2018. https://blog.demofox.org/2017/01/09/raytracing-reflection-refraction-fresnel-total-internal-reflection-and-beers-law/
 
 2. math.stackexchange.com. Transforming point between euclidean coordinate systems. Accessed on Dec 14th 2018. https://math.stackexchange.com/questions/2306319/transforming-point-between-euclidean-coordinate-systems
